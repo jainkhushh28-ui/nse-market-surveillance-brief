@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Market Surveillance Brief</title><link rel="stylesheet" href="/style.css"></head>
+<body><main>
+  <header><div><p class="eyebrow">LEGAL + COMPLIANCE PROTOTYPE</p><h1>Market Surveillance Brief</h1><p class="lead">A one-click, factual market-data brief for compliance teams monitoring listed entities.</p></div><span class="badge">Human review required</span></header>
+  <section class="notice"><strong>Educational prototype, not legal or investment advice.</strong> A market movement is not proof of material information, insider trading, or a disclosure breach. Use this as a prompt to investigate facts through the proper compliance process.</section>
+  <div class="grid"><section class="card"><h2>1. Select a monitored company</h2><p class="muted">No event narrative or legal questionnaire is needed. The tool retrieves NSE data and prepares a plain-English review brief.</p><div class="watchlist" id="watchlist"></div><button id="run">Create market surveillance brief</button><p class="small">This demo has 10 companies. A real internal tool could run automatically every morning for the company watchlist.</p><div class="section"><h3>What the tool checks</h3><ul><li>30-day trading-volume profile and recent-volume change</li><li>52-week price-range position</li><li>Corporate actions that may distort raw price comparisons</li></ul></div></section>
+  <section class="card output"><div id="empty"><h2>2. Receive a review alert</h2><p>Choose a company and run the brief. The output is factual and timestamped, ready to support—not replace—compliance review.</p></div><div id="report" hidden></div></section></div>
+  <footer>Data source: NSE Bhavcopy MCP. Intended only as a free, informational/educational demonstration under NSE’s stated MCP limitations.</footer>
+</main><script src="/app.js"></script></body></html>
